@@ -5,7 +5,7 @@ Permite que o usuário gere novos arrays e os ordene utiliziando o algoritmo de 
 
 ## Preview
 
-<img width="500" height="500" src="src/assets/to_readme/Bubble-Sort.gif">
+<img width="1280" height="660" src="src/assets/to_readme/Bubble-Sort.gif">
 
 ## Tecnologias utilizadas 
 - HTML
