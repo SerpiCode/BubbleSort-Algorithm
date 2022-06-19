@@ -14,7 +14,6 @@ Permite que o usuário gere novos arrays e os ordene utiliziando o algoritmo de 
 
 ## Bibliotecas utilizadas
 - JQuery
-- Bootstrap
 
 ## Deploy
 [Clique aqui para acessar o link](https://serpicode.github.io/BubbleSort-Algorithm/)
