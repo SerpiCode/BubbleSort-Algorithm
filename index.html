@@ -2,76 +2,68 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" href="https://a.ltrbxd.com/logos/letterboxd-decal-l-neg-rgb-500px.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="master.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 
     <title>Bubble Sort</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
-    <!-- navbar -->
-    <nav id="bar" class="navbar navbar-default">
-
-      <div class="container-fluid">
-        <div class="navbar-header">
-
-          <a class="navbar-brand" href="https://github.com/SerpiCode">
-            <img src="https://a.ltrbxd.com/logos/letterboxd-decal-l-neg-rgb-500px.png" width="20" height="20" align="left">
-          </a>
-
-        </div>
-      </div>
-
-    </nav>
-
-    <div class="flex-container">
-      <div>
-
-        <div class="container-fluid text-center" id="content">
+    <main id="fmain">
+      <div class="all-content light">
+        <div class="general-container">
 
           <header>
-            <h1 id="title">Bubble Sort Algorithm</h1>
+            <h1>BUBBLE SORT ALGORITHM</h1>
           </header>
 
-          <main>
-            <table id="array">
+          <main class="array-container">
+            <table class="table-array">
 
-              <tr>
-                <th class="cell">6</th>
-                <th class="cell">4</th>
-                <th class="cell">7</th>
-                <th class="cell">2</th>
-                <th class="cell">3</th>
-                <th class="cell">1</th>
-                <th class="cell">8</th>
-                <th class="cell">10</th>
-                <th class="cell">9</th>
-                <th class="cell">5</th>
+              <tr class="table-row">
+                <div class="row-one">
+                  <th class="table-cell">6</th>
+                  <th class="table-cell">4</th>
+                  <th class="table-cell">7</th>
+                </div>
+                <div class="row-two">
+                  <th class="table-cell">2</th>
+                  <th class="table-cell">3</th>
+                  <th class="table-cell">1</th>
+                </div>
+                <div class="row-three">
+                  <th class="table-cell">8</th>
+                  <th class="table-cell">10</th>
+                  <th class="table-cell">9</th>
+                  <th class="table-cell">5</th>
+                </div>
               </tr>
 
             </table>
           </main>
 
           <footer>
-            <button type="button" class="btn btn-default" id="generate">Generate New Array</button>
-            <button type="button" class="btn btn-primary" id="sort">Sort!</button>
+            <button type="button" class="btn" id="generate">Generate New Array</button>
+            <button type="button" class="btn" id="sort">Sort!</button>
           </footer>
-      </div>
 
-      <div class="container-fluid"><p id="credits">Website by: SerpiCode (Luis Henrique)</p></div>
+        </div>
 
+        <div class="bottom">
+          <button class="toggle-btn">
+            <i class="fa-solid fa-lightbulb"></i>
+            <i class="fa-regular fa-lightbulb"></i>
+          </button>
+
+        </div>
       </div>
-    </div>
+    </main>
 
   </body>
-  <script src="functions.js"></script>
+  <script src="https://kit.fontawesome.com/da711f5efc.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </html>
