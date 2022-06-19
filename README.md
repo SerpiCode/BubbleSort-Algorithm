@@ -5,7 +5,7 @@ Permite que o usuário gere novos arrays e os ordene utiliziando o algoritmo de 
 
 ## Preview
 
-<img width="1590" height="932" src="src/assets/to_readme/preview.png">
+<img width="400" height="400" src="src/assets/to_readme/preview.png">
 
 ## Tecnologias utilizadas 
 - HTML
